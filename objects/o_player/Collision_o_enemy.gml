@@ -71,17 +71,13 @@ if(!(state == ps.DEAD))
 		/// @DnDParent : 5211F01D
 		else
 		{
-			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 42F3E226
+			/// @DnDHash : 76611843
 			/// @DnDParent : 2BD1603A
+			/// @DnDArgument : "expr" "ps.DEAD"
 			/// @DnDArgument : "var" "state"
-			/// @DnDArgument : "not" "1"
-			/// @DnDArgument : "value" "ps.KNOCKBACK"
-			if(!(state == ps.KNOCKBACK))
-			{
-			
-			}
+			state = ps.DEAD;
 		}
 	}
 }

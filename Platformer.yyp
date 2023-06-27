@@ -34,6 +34,7 @@
     "IDEVersion": "2023.4.0.84",
   },
   "resources": [
+    {"id":{"name":"o_spike","path":"objects/o_spike/o_spike.yy",},},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},},
     {"id":{"name":"check_ground","path":"scripts/check_ground/check_ground.yy",},},
@@ -57,6 +58,7 @@
     {"id":{"name":"check_jump","path":"scripts/check_jump/check_jump.yy",},},
     {"id":{"name":"s_enemy_walk","path":"sprites/s_enemy_walk/s_enemy_walk.yy",},},
     {"id":{"name":"t_platform","path":"tilesets/t_platform/t_platform.yy",},},
+    {"id":{"name":"s_spike","path":"sprites/s_spike/s_spike.yy",},},
     {"id":{"name":"s_player_idle","path":"sprites/s_player_idle/s_player_idle.yy",},},
     {"id":{"name":"check_facing","path":"scripts/check_facing/check_facing.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

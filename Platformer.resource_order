@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"o_spike","order":5,"path":"objects/o_spike/o_spike.yy",},
     {"name":"o_game","order":2,"path":"objects/o_game/o_game.yy",},
     {"name":"o_solid","order":1,"path":"objects/o_solid/o_solid.yy",},
     {"name":"check_ground","order":6,"path":"scripts/check_ground/check_ground.yy",},
@@ -37,6 +38,7 @@
     {"name":"animate_enemy","order":9,"path":"scripts/animate_enemy/animate_enemy.yy",},
     {"name":"check_jump","order":5,"path":"scripts/check_jump/check_jump.yy",},
     {"name":"s_enemy_walk","order":5,"path":"sprites/s_enemy_walk/s_enemy_walk.yy",},
+    {"name":"s_spike","order":10,"path":"sprites/s_spike/s_spike.yy",},
     {"name":"check_facing","order":8,"path":"scripts/check_facing/check_facing.yy",},
   ],
 }

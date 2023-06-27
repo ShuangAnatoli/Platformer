@@ -57,6 +57,24 @@ function animate_enemy()
 			/// @DnDArgument : "script" "check_facing"
 			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
+		
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 4916E8A5
+			/// @DnDParent : 2F9E741E
+			instance_destroy();
+		
+			/// @DnDAction : YoYo Games.Common.If_Expression
+			/// @DnDVersion : 1
+			/// @DnDHash : 52659780
+			/// @DnDInput : 2
+			/// @DnDParent : 2F9E741E
+			/// @DnDArgument : "expr" "sprite_index == spr_dead"
+			/// @DnDArgument : "expr_1" "image_index == image_number - 1"
+			if(sprite_index == spr_dead && image_index == image_number - 1)
+			{
+			
+			}
 			break;
 	}
 }

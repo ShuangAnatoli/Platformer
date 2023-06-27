@@ -113,5 +113,20 @@ function animate()
 				image_index = 1;
 			}
 			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 7E021D1A
+		/// @DnDParent : 4C2EB7C7
+		/// @DnDArgument : "const" "ps.DEAD"
+		case ps.DEAD:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 0439C258
+			/// @DnDParent : 7E021D1A
+			/// @DnDArgument : "value" "spr_dead"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = spr_dead;
+			break;
 	}
 }
