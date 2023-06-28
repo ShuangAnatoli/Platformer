@@ -5,6 +5,12 @@
 /// @DnDArgument : "var" "grav"
 global.grav = 0.3;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 65B37FEB
+/// @DnDArgument : "var" "coins"
+global.coins = 0;
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 748DE2BC
@@ -26,3 +32,17 @@ enum es{
 	HURT,
 	DEAD
 }
+
+/// @DnDAction : YoYo Games.Data Structures.Create_Map
+/// @DnDVersion : 1
+/// @DnDHash : 3A070F0D
+/// @DnDArgument : "var" "music_map"
+music_map = ds_map_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 4FDCD4D9
+/// @DnDArgument : "var" "music_map"
+/// @DnDArgument : "key" "r_start"
+/// @DnDArgument : "value" "snd_music"
+ds_map_replace(music_map, r_start, snd_music);

@@ -42,6 +42,14 @@ function animate_enemy()
 		/// @DnDParent : 4C2EB7C7
 		/// @DnDArgument : "const" "es.DEAD"
 		case es.DEAD:
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 08129B04
+			/// @DnDParent : 2F9E741E
+			/// @DnDArgument : "soundid" "snd_enemy_die"
+			/// @DnDSaveInfo : "soundid" "snd_enemy_die"
+			audio_play_sound(snd_enemy_die, 0, 0, 1.0, undefined, 1.0);
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 4668B49F
@@ -64,17 +72,13 @@ function animate_enemy()
 			/// @DnDParent : 2F9E741E
 			instance_destroy();
 		
-			/// @DnDAction : YoYo Games.Common.If_Expression
+			/// @DnDAction : YoYo Games.Particles.Effect
 			/// @DnDVersion : 1
-			/// @DnDHash : 52659780
-			/// @DnDInput : 2
+			/// @DnDHash : 774C1170
 			/// @DnDParent : 2F9E741E
-			/// @DnDArgument : "expr" "sprite_index == spr_dead"
-			/// @DnDArgument : "expr_1" "image_index == image_number - 1"
-			if(sprite_index == spr_dead && image_index == image_number - 1)
-			{
-			
-			}
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y_relative" "1"
+			effect_create_below(0, x + 0, y + 0, 0, $FFFFFF & $ffffff);
 			break;
 	}
 }
